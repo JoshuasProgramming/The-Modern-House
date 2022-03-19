@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #ffffff;
+  height: 10vh;
+}
+
+.nav .left-nav {
+  background: white;
+}
+
+.nav .left-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0px 0px 0px 65px;
+}
+
+.nav .left-nav ul li {
+  list-style: none;
+  margin: 0px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.nav .left-nav ul li a {
+  text-decoration: none;
+}
+
+.nav .middle-nav h1 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav .right-nav {
+  background: white;
+}
+
+.nav .right-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0px 60px 0px -65px;
+}
+
+.nav .right-nav ul li {
+  list-style: none;
+  margin: 0px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.nav .right-nav ul li a {
+  text-decoration: none;
+}
+
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: beige;
+}
+
+.section-1 .sub1-section1 {
+  background-image: url(images/kitchen1.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 80%;
+  float: left;
+  height: 90vh;
+  position: relative;
+}
+
+.section-1 .sub2-section1 {
+  width: 45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-1 .sub2-section1 h3 {
+  font-size: 2vw;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-1 .sub2-section1 h2 {
+  font-size: 1.5vw;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.section-1 .sub2-section1 h1 {
+  font-size: 5.5vw;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.section-1 .sub2-section1 a {
+  text-align: center;
+  font-size: 2vw;
+  border: 1px solid #484848;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 30px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+}
+
+.section-1 .sub2-section1 a:hover {
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
