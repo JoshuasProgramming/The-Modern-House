@@ -519,6 +519,52 @@
     }
 }
 
+.section-6{
+    height: 90vh;
+    background: beige;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    q{
+        color: #101010;
+        font-size: 2vw;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    p{
+        color: #101010;
+        font-size: 2vw;
+        padding: 0px 50px 0px 150px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    i{
+        color:#101010;
+        font-size: 2vw;
+        font-weight: bolder;
+    }
+
+    .section6-image-of-person{
+        background-image: url(images/section6-image-of-person.jpg);
+        background-size:cover;
+        min-height: 90%;
+        width:150%;
+        height: 70vh;
+        position: relative;
+    }
+
+    .empty-space-section-6-container{
+        width:68%;
+    }
+}
+
+.section-7{
+    
+}
+
 @media screen and (max-width:912px) {
     .nav{
         display: flex;

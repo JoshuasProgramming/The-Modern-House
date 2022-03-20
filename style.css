@@ -635,6 +635,56 @@
   cursor: pointer;
 }
 
+.section-6 {
+  height: 90vh;
+  background: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-6 q {
+  color: #101010;
+  font-size: 2vw;
+  font-family: 'Rubik', sans-serif;
+}
+
+.section-6 p {
+  color: #101010;
+  font-size: 2vw;
+  padding: 0px 50px 0px 150px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.section-6 i {
+  color: #101010;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.section-6 .section6-image-of-person {
+  background-image: url(images/section6-image-of-person.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 150%;
+  height: 70vh;
+  position: relative;
+}
+
+.section-6 .empty-space-section-6-container {
+  width: 68%;
+}
+
 @media screen and (max-width: 912px) {
   .nav {
     display: -webkit-box;
