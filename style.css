@@ -62,6 +62,7 @@
 
 .nav .middle-nav h1 {
   font-family: 'Rubik', sans-serif;
+  letter-spacing: 5px;
 }
 
 .nav .right-nav {
@@ -634,7 +635,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 912px) {
   .nav {
     display: -webkit-box;
     display: -ms-flexbox;

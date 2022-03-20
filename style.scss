@@ -46,6 +46,7 @@
     .middle-nav{
         h1{
             font-family: 'Rubik', sans-serif;
+            letter-spacing: 5px;
         }
     }
 
@@ -518,7 +519,7 @@
     }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:912px) {
     .nav{
         display: flex;
         align-items: center;
