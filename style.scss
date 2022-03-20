@@ -656,4 +656,366 @@
             }
         }
     }
+
+    .section-3{
+    background: #f5f1ed;
+    height: 490vh;
+
+        .sub1-section3{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 0px 10px 0px 0px;
+
+            h2{
+                font-size:5.5vw;
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                padding: 0px 0px 10px 0px;;
+            }
+
+            a{
+                text-align: center;
+                font-size: 3.5vw;
+                border: 1px solid #484848;
+                width: fit-content;
+                align-self: center;
+                padding: 10px;
+                font-family: 'Montserrat', sans-serif;
+                transition: ease-in-out 300ms;
+                font-weight: bolder;
+        
+                &:hover{
+                    background: rgb(17, 17, 17);
+                    color: #ffffff;
+                    font-weight: lighter;
+                    border: 1px solid #ffffff;
+                    transition: ease-in-out 300ms;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .sub2-section3{
+            display: grid;
+            gap: 80px 100px;
+            grid-template-columns: auto;
+            padding: 15px 10px 0px 10px;
+
+            .sub2-section3-box1{
+                .image1{
+                    background-image: url(images/section3-image1.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+
+            .sub2-section3-box2{
+                .image2{
+                    background-image: url(images/section3-image2.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+
+            .sub2-section3-box3{
+                .image3{
+                    background-image: url(images/section3-image3.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+
+            .sub2-section3-box4{
+                .image4{
+                    background-image: url(images/section3-image4.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+
+            .sub2-section3-box5{
+                .image5{
+                    background-image: url(images/section3-image5.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+
+            .sub2-section3-box6{
+                .image6{
+                    background-image: url(images/section3-image6.jpg);
+                    background-size:cover;
+                    min-height: 90%;
+                    width:100%;
+                    height: 48vh;
+                    position: relative;
+                }
+    
+                .contain-two-rows-of-text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+    
+                    .name-and-price{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+    
+                    .location-and-availability{
+                        h3{
+                            font-size: 5.5vw;
+                            font-family: 'Montserrat', sans-serif;
+                            text-align: center;
+                        }
+                        h2{
+                            font-size: 5.5vw;
+                            font-family: 'Rubik', sans-serif;
+                            text-align: center;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+
+    .section-4{
+        height: 40vh;
+        background: #101010;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        q{
+            font-size: 4vw;
+            font-family: 'Rubik', sans-serif;
+        }
+        i{
+            font-size: 4vw;
+        }
+        
+        a{
+            text-align: center;
+            font-size: 2.5vw;
+            border: 1px solid #484848;
+            width: fit-content;
+            align-self: center;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            transition: ease-in-out 300ms;
+            font-weight: bolder;
+    
+            &:hover{
+                background: #ffffff;
+                color: rgb(5, 5, 5);
+                font-weight: bolder;
+                border: 1px solid #ffffff;
+                transition: ease-in-out 300ms;
+                cursor: pointer;
+            }
+        }
+    }
 }
