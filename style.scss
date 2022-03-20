@@ -73,6 +73,7 @@
     }
 }
 
+
 .section-1{
     display: flex;
     align-items: center;
@@ -513,6 +514,146 @@
             border: 1px solid #ffffff;
             transition: ease-in-out 300ms;
             cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:414px) {
+    .nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: #ffffff;
+        height: 10vh;
+        position: fixed;
+        width: 100vw;
+        z-index: 9999;
+
+        .left-nav{
+            display: none;
+        }
+
+        .middle-nav{
+
+            h1{
+                font-family: 'Rubik', sans-serif;
+                font-size: 4.5vw;
+                margin: 22px;
+                letter-spacing: 3px;
+            }
+
+        }
+
+        .right-nav{
+            display: none;
+        }
+    }
+
+    .section-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background:beige;
+
+        .sub1-section1{
+            background-image: url(images/kitchen1.jpg);
+            background-size: cover;
+            min-height: 90%;
+            width: 100%;
+            float: left;
+            height: 48vh;
+            position: relative;
+            
+        }
+
+        .sub2-section1{
+            width: 100vw;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0px 0px 20px 0px;
+
+            h3{
+                font-size:5.5vw;
+                padding: 9px;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            h2{
+                font-size:5.5vw;
+                padding: 9px;
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+            }
+
+            h1{
+                font-size: 9.5vw;
+                padding: 9px;
+                text-align: center;
+                font-weight:lighter;
+            }
+
+            a{
+                text-align: center;
+                font-size: 4vw;
+                border: 1px solid #484848;
+                width: fit-content;
+                align-self: center;
+                margin-top: 30px;
+                padding: 10px;
+                font-family: 'Montserrat', sans-serif;
+                transition: ease-in-out 300ms;
+                font-weight: bolder;
+
+                &:hover{
+                    background: rgb(17, 17, 17);
+                    font-weight: lighter;
+                    color: #ffffff;
+                    border: 1px solid #ffffff;
+                    transition: ease-in-out 300ms;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .section-2{
+        height: 40vh;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        q{
+            font-size: 2.5vw;
+            font-family: 'Rubik', sans-serif;
+        }
+        i{
+            font-size: 4vw;
+        }
+        
+        a{
+            text-align: center;
+            font-size: 3vw;
+            border: 1px solid #484848;
+            width: fit-content;
+            align-self: center;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            transition: ease-in-out 300ms;
+            font-weight: bolder;
+    
+            &:hover{
+                background: rgb(17, 17, 17);
+                color: #ffffff;
+                font-weight: lighter;
+                border: 1px solid #ffffff;
+                transition: ease-in-out 300ms;
+                cursor: pointer;
+            }
         }
     }
 }

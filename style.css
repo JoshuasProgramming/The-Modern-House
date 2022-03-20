@@ -633,4 +633,168 @@
   transition: ease-in-out 300ms;
   cursor: pointer;
 }
+
+@media screen and (max-width: 414px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #ffffff;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+  }
+  .nav .left-nav {
+    display: none;
+  }
+  .nav .middle-nav h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.5vw;
+    margin: 22px;
+    letter-spacing: 3px;
+  }
+  .nav .right-nav {
+    display: none;
+  }
+  .section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: beige;
+  }
+  .section-1 .sub1-section1 {
+    background-image: url(images/kitchen1.jpg);
+    background-size: cover;
+    min-height: 90%;
+    width: 100%;
+    float: left;
+    height: 48vh;
+    position: relative;
+  }
+  .section-1 .sub2-section1 {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 0px 20px 0px;
+  }
+  .section-1 .sub2-section1 h3 {
+    font-size: 5.5vw;
+    padding: 9px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .section-1 .sub2-section1 h2 {
+    font-size: 5.5vw;
+    padding: 9px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .section-1 .sub2-section1 h1 {
+    font-size: 9.5vw;
+    padding: 9px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .section-1 .sub2-section1 a {
+    text-align: center;
+    font-size: 4vw;
+    border: 1px solid #484848;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: ease-in-out 300ms;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+  }
+  .section-1 .sub2-section1 a:hover {
+    background: #111111;
+    font-weight: lighter;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-transition: ease-in-out 300ms;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+  }
+  .section-2 {
+    height: 40vh;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-2 q {
+    font-size: 2.5vw;
+    font-family: 'Rubik', sans-serif;
+  }
+  .section-2 i {
+    font-size: 4vw;
+  }
+  .section-2 a {
+    text-align: center;
+    font-size: 3vw;
+    border: 1px solid #484848;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: ease-in-out 300ms;
+    transition: ease-in-out 300ms;
+    font-weight: bolder;
+  }
+  .section-2 a:hover {
+    background: #111111;
+    color: #ffffff;
+    font-weight: lighter;
+    border: 1px solid #ffffff;
+    -webkit-transition: ease-in-out 300ms;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+  }
+}
 /*# sourceMappingURL=style.css.map */
