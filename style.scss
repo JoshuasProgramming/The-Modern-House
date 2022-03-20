@@ -178,7 +178,7 @@
 
 .section-3{
     background: #f5f1ed;
-    height: 250vh;
+    height: 225vh;
 
     .sub1-section3{
         display: flex;
@@ -467,6 +467,52 @@
                     }
                 }
             }
+        }
+    }
+}
+
+.section-4{
+    height:40vh;
+    background:#101010;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    q{
+        color: white;
+        font-size: 3vw;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    p{
+        color: white;
+        font-size: 3vw;
+    }
+
+    i{
+        font-size: 3vw;
+    }
+    
+    a{
+        text-align: center;
+        font-size: 1vw;
+        border: 1px solid #484848;
+        width: fit-content;
+        align-self: center;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        transition: ease-in-out 300ms;
+        color: white;
+
+        &:hover{
+            background: #ffffff;
+            color: #101010;
+            font-weight: bolder;
+            border: 1px solid #ffffff;
+            transition: ease-in-out 300ms;
+            cursor: pointer;
         }
     }
 }
