@@ -132,3 +132,38 @@
         
     }
 }
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 40vh;
+
+    q{
+        font-size: 2vw;
+        font-family: 'Rubik', sans-serif;
+    }
+    i{
+        font-size: 2vw;
+    }
+    
+    a{
+        text-align: center;
+        font-size: 2vw;
+        border: 1px solid #484848;
+        width: fit-content;
+        align-self: center;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        transition: ease-in-out 300ms;
+
+        &:hover{
+            background: rgb(17, 17, 17);
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            transition: ease-in-out 300ms;
+            cursor: pointer;
+        }
+    }
+}
