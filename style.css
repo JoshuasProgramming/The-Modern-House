@@ -116,7 +116,7 @@
   min-height: 90%;
   width: 80%;
   float: left;
-  height: 90vh;
+  height: 88vh;
   position: relative;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .section-1 .sub2-section1 h3 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -147,14 +147,14 @@
 }
 
 .section-1 .sub2-section1 h1 {
-  font-size: 5.5vw;
+  font-size: 3.5vw;
   text-align: center;
   font-weight: lighter;
 }
 
 .section-1 .sub2-section1 a {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1vw;
   border: 1px solid #484848;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -163,14 +163,16 @@
       -ms-grid-row-align: center;
       align-self: center;
   margin-top: 30px;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: ease-in-out 300ms;
   transition: ease-in-out 300ms;
+  font-weight: bolder;
 }
 
 .section-1 .sub2-section1 a:hover {
   background: #111111;
+  font-weight: lighter;
   color: #ffffff;
   border: 1px solid #ffffff;
   -webkit-transition: ease-in-out 300ms;
@@ -206,7 +208,7 @@
 
 .section-2 a {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1vw;
   border: 1px solid #484848;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -214,15 +216,17 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   -webkit-transition: ease-in-out 300ms;
   transition: ease-in-out 300ms;
+  font-weight: bolder;
 }
 
 .section-2 a:hover {
   background: #111111;
   color: #ffffff;
+  font-weight: lighter;
   border: 1px solid #ffffff;
   -webkit-transition: ease-in-out 300ms;
   transition: ease-in-out 300ms;

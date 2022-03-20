@@ -82,7 +82,7 @@
         min-height: 90%;
         width:80%;
         float: left;
-        height: 90vh;
+        height: 88vh;
         position: relative;
     }
 
@@ -93,7 +93,7 @@
         flex-direction: column;
 
         h3{
-            font-size:2vw;
+            font-size:1.5vw;
             text-align: center;
             font-family: 'Montserrat', sans-serif;
         }
@@ -105,24 +105,26 @@
         }
 
         h1{
-            font-size: 5.5vw;
+            font-size: 3.5vw;
             text-align: center;
             font-weight:lighter;
         }
 
         a{
             text-align: center;
-            font-size: 2vw;
+            font-size: 1vw;
             border: 1px solid #484848;
             width: fit-content;
             align-self: center;
             margin-top: 30px;
-            padding: 20px;
+            padding: 10px;
             font-family: 'Montserrat', sans-serif;
             transition: ease-in-out 300ms;
+            font-weight: bolder;
 
             &:hover{
                 background: rgb(17, 17, 17);
+                font-weight: lighter;
                 color: #ffffff;
                 border: 1px solid #ffffff;
                 transition: ease-in-out 300ms;
@@ -150,17 +152,19 @@
     
     a{
         text-align: center;
-        font-size: 2vw;
+        font-size: 1vw;
         border: 1px solid #484848;
         width: fit-content;
         align-self: center;
-        padding: 20px;
+        padding: 10px;
         font-family: 'Montserrat', sans-serif;
         transition: ease-in-out 300ms;
+        font-weight: bolder;
 
         &:hover{
             background: rgb(17, 17, 17);
             color: #ffffff;
+            font-weight: lighter;
             border: 1px solid #ffffff;
             transition: ease-in-out 300ms;
             cursor: pointer;
