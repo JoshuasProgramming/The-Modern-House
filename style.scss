@@ -1657,9 +1657,8 @@
         .sub1-section9{
             display: flex;
             align-items: center;
-            justify-content: start;
+            justify-content: flex-end;
             flex-direction: row;
-            padding: 50px 0px 0px 50px;
     
             .section-sub1-section9-left-footer-1{
     
@@ -1764,7 +1763,6 @@
     
                 input{
                     width:55%;
-                    padding: 10% 90% 0% 0%;
                     font-size: 3.13vw;
                     font-family: 'Montserrat', sans-serif;
                     color: #101010;

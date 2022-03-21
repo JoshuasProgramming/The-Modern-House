@@ -1931,14 +1931,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 50px 0px 0px 50px;
   }
   .section-9 .sub1-section9 .section-sub1-section9-left-footer-1 {
     display: -webkit-box;
@@ -2081,7 +2080,6 @@
   }
   .section-9 .sub2-section9 form input {
     width: 55%;
-    padding: 10% 90% 0% 0%;
     font-size: 3.13vw;
     font-family: 'Montserrat', sans-serif;
     color: #101010;
