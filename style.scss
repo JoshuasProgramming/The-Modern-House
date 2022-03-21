@@ -751,7 +751,7 @@
 
 .section-9{
     background: #101010;
-    height: 55vh;
+    height: 45vh;
 
     display: flex;
     align-items: baseline;
@@ -1516,17 +1516,17 @@
             align-items: center;
             justify-content: space-around;
             flex-direction: column;
-            padding: 0px 10px 0px 0px;
 
             h2{
-                font-size:1.5vw;
+                font-size:4.5vw;
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
+                padding: 0px 0px 10px 0px;
             }
 
             a{
                 text-align: center;
-                font-size: 1vw;
+                font-size: 3vw;
                 border: 1px solid #484848;
                 width: fit-content;
                 align-self: center;
@@ -1641,6 +1641,181 @@
                     }
                 }
 
+            }
+        }
+    }
+
+    .section-9{
+        background: #101010;
+        height: 55vh;
+
+        display: flex;
+        align-items: unset;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .sub1-section9{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: row;
+            padding: 50px 0px 0px 50px;
+    
+            .section-sub1-section9-left-footer-1{
+    
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                h4{
+                    font-size:3vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 10px 0px;
+                }
+                
+    
+                h3{
+                    font-size: 4.55vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 15px 0px;
+                }
+            }
+    
+            .section-sub1-section9-left-footer-2{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                h4{
+                    font-size:3vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 10px 0px;
+                }
+                
+    
+                h3{
+                    font-size: 4.55vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 15px 0px;
+                }
+            }
+    
+            .section-sub1-section9-left-footer-3{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                h4{
+                    font-size:3vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 10px 0px;
+                }
+                
+    
+                h3{
+                    font-size: 4.55vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 15px 0px;
+                }
+            }
+        }
+
+        .sub2-section9{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            
+            .section-sub2-section9-right-footer-1{
+                display: flex;
+                align-items: inherit;
+                justify-content: center;
+                flex-direction: column;
+    
+                h3{
+                    font-size: 3vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 0px 25px 15px 0px;
+                }
+            }
+    
+            form{
+                display: flex;
+                align-items:center;
+                justify-content:center;
+                flex-direction: row;
+    
+                input{
+                    width:55%;
+                    padding: 10% 90% 0% 0%;
+                    font-size: 3.13vw;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #101010;
+                }
+    
+                a{
+                    text-align: center;
+                    font-size: 3.05vw;
+                    border: 1px solid #484848;
+                    width: fit-content;
+                    align-self: center;
+                    padding: 10.5px;
+                    font-family: 'Montserrat', sans-serif;
+                    transition: ease-in-out 300ms;
+                    color: white;
+            
+                    &:hover{
+                        background: #ffffff;
+                        color: #101010;
+                        font-weight: bolder;
+                        border: 1px solid #ffffff;
+                        transition: ease-in-out 300ms;
+                        cursor: pointer;
+                    }
+                }
+    
+            }
+    
+            .sub2-section9-right-footer-1-checkbox-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: row;
+    
+                input{
+                    width:6%;
+                    padding: 5px;
+                    outline: none;
+                }
+                
+                p{
+                    font-size:3vw;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight:100;
+                    color: #f5f1ed;
+                    padding: 10px 0% 0% 9%;
+    
+                    a{
+                        text-decoration: underline;
+                    }
+                }
             }
         }
     }
