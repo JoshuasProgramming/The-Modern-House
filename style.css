@@ -744,7 +744,7 @@
 
 .section-7 .section7-text-container a:hover {
   background: #ffffff;
-  color: #484848;
+  color: #000000;
   font-weight: lighter;
   border: 1px solid #ffffff;
   -webkit-transition: ease-in-out 300ms;
@@ -1375,7 +1375,7 @@
   }
   .section-7 .section7-text-container a:hover {
     background: #ffffff;
-    color: #484848;
+    color: #000000;
     font-weight: lighter;
     border: 1px solid #ffffff;
     -webkit-transition: ease-in-out 300ms;
