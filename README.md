@@ -17,8 +17,10 @@ The lessons learned are below:
 * Updating my knowledge on responsive design.
 * Making each section of the page have the height and width of the ui/ux mockup.
 
-## UX/UI Design
-![Final Product]()
+## UX/UI Design 
+![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/uiux.JPG)
+### UI Website Link 
+https://www.themodernhouse.com/
 
 ## Final Product (1920x1080 desktop phone)
 ![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/1920x1080-min.png)
