@@ -21,10 +21,10 @@ The lessons learned are below:
 ![Final Product]()
 
 ## Final Product (1920x1080 desktop phone)
-![Final Product]()
+![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/1920x1080-min.png)
 
 ## Final Product (390x844 mobile phone)
-![Final Product]()
+![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/390x844.png)
 
 ### Website Link
 https://joshuasprogramming.github.io/The-Modern-House/
