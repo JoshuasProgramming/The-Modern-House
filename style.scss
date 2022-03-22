@@ -751,7 +751,7 @@
 
 .section-9{
     background: #101010;
-    height: 45vh;
+    height: 55vh;
 
     display: flex;
     align-items: baseline;
@@ -1823,13 +1823,13 @@
 }
 
 /*Majority of tablets (works when we are vertical and horizontal)*/
-@media screen and (min-width:680px) and (max-width:1080px){
+@media screen and (min-width:667px) and (max-width:767px){
     .nav{
         display: flex;
         align-items: center;
         flex-direction: column;
         background: #ffffff;
-        height: 10vh;
+        height: 13vh;
         position: fixed;
         width: 100vw;
         z-index: 9999;
@@ -1842,16 +1842,17 @@
 
             h1{
                 font-family: 'Rubik', sans-serif;
-                font-size: 4.5vw;
-                margin: 22px;
+                font-size: 3.5vw;
+                margin: 12px;
                 letter-spacing: 3px;
-            }
 
+            }
         }
 
         .right-nav{
             display: none;
         }
+        
     }
 
     .section-1{
@@ -1867,7 +1868,7 @@
             min-height: 90%;
             width: 100%;
             float: left;
-            height: 48vh;
+            height: 88vh;
             position: relative;
             
         }
@@ -1880,21 +1881,21 @@
             padding: 0px 0px 20px 0px;
 
             h3{
-                font-size:5.5vw;
+                font-size:3.5vw;
                 padding: 9px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
             }
 
             h2{
-                font-size:5.5vw;
+                font-size:3.5vw;
                 padding: 9px;
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
             }
 
             h1{
-                font-size: 9.5vw;
+                font-size: 4.5vw;
                 padding: 9px;
                 text-align: center;
                 font-weight:lighter;
@@ -1902,7 +1903,7 @@
 
             a{
                 text-align: center;
-                font-size: 4vw;
+                font-size: 1vw;
                 border: 1px solid #484848;
                 width: fit-content;
                 align-self: center;
@@ -1963,7 +1964,7 @@
 
     .section-3{
         background: #f5f1ed;
-        height: 225vh;
+        height: 280vh;
     
         .sub1-section3{
             display: flex;
@@ -2257,7 +2258,7 @@
     }
     
     .section-4{
-        height:40vh;
+        height:70vh;
         background:#101010;
     
         display: flex;
@@ -2303,7 +2304,7 @@
     }
     
     .section-6{
-        height: 90vh;
+        height: 150vh;
         background: beige;
     
         display: flex;
@@ -2336,7 +2337,7 @@
             background-size: cover;
             min-height: 30%;
             width: 40%;
-            height: 70vh;
+            height: 170vh;
             position: relative;
             opacity: 90%;
         }
@@ -2521,6 +2522,7 @@
                         h3{
                             font-size: 1.5vw;
                             font-family: 'Montserrat', sans-serif;
+                            padding: 15px 0px 0px 0px;
                         }
                         h2{
                             font-size: 1.5vw;
@@ -2535,7 +2537,7 @@
     
     .section-9{
         background: #101010;
-        height: 45vh;
+        height: 55vh;
     
         display: flex;
         align-items: baseline;
