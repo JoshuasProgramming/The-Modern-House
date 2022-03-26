@@ -58,6 +58,7 @@
 
 .nav .left-nav ul li a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav .middle-nav h1 {
@@ -96,6 +97,7 @@
 
 .nav .right-nav ul li a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .section-1 {
