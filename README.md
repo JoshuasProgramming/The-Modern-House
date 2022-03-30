@@ -22,7 +22,7 @@ The lessons learned are below:
 ### UI Website Link 
 https://www.themodernhouse.com/
 
-## Final Product (1920x1080 desktop phone)
+## Final Product (1920x1080 desktop)
 ![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/1920x1080-min.png)
 
 ## Final Product (390x844 mobile phone)
