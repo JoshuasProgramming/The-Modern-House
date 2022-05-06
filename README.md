@@ -17,6 +17,10 @@ The lessons learned are below:
 * Updating my knowledge on responsive design.
 * Making each section of the page have the height and width of the ui/ux mockup.
 
+# What I'll do next time
+
+* Try to adjust my responsive design skills
+
 ## UX/UI Design 
 ![Final Product](https://github.com/JoshuasProgramming/The-Modern-House/blob/main/images/uiux.JPG)
 ### UI Website Link 
